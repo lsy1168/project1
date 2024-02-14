@@ -8,6 +8,11 @@ footer {
 hr {
   margin: 0;
 }
+.inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
 /* //레이아웃 */
 .popup {
   position: fixed;
@@ -122,6 +127,68 @@ header {
 .header_gnb li a{
   color: black;
 } 
+/* gnb 1뎁스 */
+.header_gnb li a:hover{
+  color: #30488c;
+}
+.header_gnb .w100{
+  position: absolute;
+  width: 100%;
+  background-color: #e0ebfa ;
+  left: 0;
+  top: 9.4rem;
+  height: 0px;
+  overflow: hidden;
+  padding: 0 0;
+  transition: padding 0.5s;
+  box-shadow: 0 2px 2px rgb(0, 0, 0 / 7%);
+}
+.header_gnb li:hover .w100{
+  height: auto;
+  padding: 20px 0;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+/* gnb 2뎁스  */
+.header_gnb li .inner{
+  display: flex;
+}
+.header_gnb li .inner .menu_title {
+  flex: 0 1 300px;
+  padding: 0 20px 0 0;
+  text-align: center;
+}
+.header_gnb li ul li {
+  width: 200px;
+  margin: 0;
+  border-left: 1px solid #c9c9c9;
+  padding-left: 20px;
+}
+.header_gnb li ul li h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+  padding-top: 2px;
+}
+.header_gnb li ul li dl dt a {
+  color: #333;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 180%;
+}
+.header_gnb li ul li h3 a {
+  color: #30488c;
+  font-weight: bold;
+  line-height: 200%;
+  margin-bottom: 3px;
+}
+.header_gnb li ul li dl dd a {
+  color: #777;
+  font-size: 0.8em;
+  font-weight: bold;
+  line-height: 170%;
+  padding-left: 10px;
+}
+/* //투뎁스 */
 .full_menu {
   width: 8%;
   height: 100px;
@@ -190,6 +257,9 @@ main {
   font-size: 20px;
   font-weight: bold;
   color: #30488c;
+}
+.main_top_box2:hover{
+  background: yellow;
 }
 .main_top_box2 a {
   color: #30488c;
