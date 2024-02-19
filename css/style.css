@@ -318,8 +318,9 @@ main {
   justify-content: space-evenly;
   flex-direction: column;
   align-items: center;
-  background: #e0ebfa;
+  background: #F6F7FB;
   border-radius: 20px;
+  border: 1px solid #B1B8D9;
 }
 .section_left_2 {
   width: 25%;
@@ -329,8 +330,10 @@ main {
   justify-content: space-evenly;
   flex-direction: column;
   align-items: center;
-  background: #e0ebfa;
+  background: #F6F7FB;
   border-radius: 20px;
+  border: 1px solid #B1B8D9;
+  
 }
 .section_right {
   width: 40%;
@@ -338,23 +341,42 @@ main {
   margin: auto;
 }
 .section_right img {
-  width: 100%;
-  height: 100%;
   border-radius: 20px;
+  width: 100%;
+}
+.section_right_bottom{
+  padding-top: 25px;
+  width: 100%;
+  height: 90px;
+}
+.section_right_bottom h2{
+  font-size: 20px;
+  font-weight:700;
+  padding-bottom: 20px;
+}
+.section_right_bottom img{
+  width: 36px;
+  height: 36px;
+  padding-left: 20px;
+
 }
 .s3_left_top {
-  width: 95%;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #6C7AB9 ;
 }
 .s3_left_bottom {
-  width: 95%;
-  height: 70%;
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
 }
 .h3_1 {
   width: 100%;
   margin: auto;
   font-size: 20px;
   font-weight: bold;
-  line-height: 50%;
+  line-height: 50px;
+  padding-left: 15px;
 }
 .s3_left_bottom_icons {
   display: flex;
@@ -363,30 +385,36 @@ main {
   height: 85%;
 }
 .s3_left_bottom_icon {
-  height: 25%;
-  border: 1px solid;
-  margin-top: 5px;
+  height: 24px;
+  width: 285px;
+  padding-top: 20px;
 }
 .s3_left_bottom_icon img {
-  width: 30px;
-  height: 30px;
-  margin: auto;
+  vertical-align:middle;
+}
+.s3_left_bottom_icon a{
+  padding-left: 5px;
+  color: #333;
 }
 /* 섹션3_2 */
 
 .s3_left_top_2 {
-  width: 95%;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #6C7AB9 ;
 }
 .s3_left_bottom_2 {
-  width: 95%;
-  height: 70%;
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
 }
 .h3_2 {
   width: 100%;
   margin: auto;
   font-size: 20px;
   font-weight: bold;
-  line-height: 50%;
+  line-height: 50px;
+  padding-left: 15px;
 }
 .s3_left_bottom_icons_2 {
   display: flex;
@@ -395,13 +423,16 @@ main {
   height: 85%;
 }
 .s3_left_bottom_icon_2 {
-  height: 25%;
-  border: 1px solid;
-  margin-top: 5px;
+  height: 24px;
+  width: 285px;
+  padding-top: 20px;
 }
 .s3_left_bottom_icon_2 img {
-  width: 30px;
-  height: 30px;
+  vertical-align:middle;
+}
+.s3_left_bottom_icon_2 a{
+  padding-left: 5px;
+  color: #333;
 }
 
 /* 섹션4 */
