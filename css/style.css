@@ -133,8 +133,8 @@ header {
   color: #30488c;
 }
 .header_gnb .w100 {
-  position: absolute;
-  width: 100%;
+  position: absolute ;
+  width: 100% ;
   background-color: #e0ebfa;
   left: 0;
   top: 9.4rem;
@@ -143,6 +143,8 @@ header {
   padding: 0 0;
   transition: padding 0.5s;
   box-shadow: 0 2px 2px rgb(0, 0, 0 / 7%);
+  z-index: 1000;
+  
 }
 .header_gnb li:hover .w100 {
   height: auto;
@@ -154,14 +156,14 @@ header {
   display: flex;
 }
 .header_gnb li ul li {
-  width: 200px;
+  width: 200px ;
   margin: 0;
   border-left: 1px solid #c9c9c9;
   padding-left: 10px;
   padding-right: 10px;
   display: flex;
   flex-direction: column;
-  border-right: 1px solid #c9c9c9;
+  border-right: 1px solid #c9c9c9; 
 }
 .header_gnb li ul li dl dd a {
   color: #333;
