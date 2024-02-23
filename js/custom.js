@@ -19,4 +19,4 @@ function slide() {
 }
 setInterval(function () {
   slide();
-} ,3500);
+} ,2800);
