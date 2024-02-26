@@ -1,5 +1,14 @@
 @charset "utf-8";
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 /* 레이아웃 */
+body{
+  font-family: 'Pretendard-Regular';
+}
 header,
 main,
 footer {
@@ -42,6 +51,7 @@ hr {
 header {
   background: white;
   height: 150px;
+  
 }
 .header_top {
   max-width: 1200px;
@@ -126,7 +136,7 @@ header {
   font-size: 20px;
   height: 100%;
 }
-.header_gnb>li>a {
+.header_gnb > li > a {
   line-height: 100px;
   color: black;
 }
@@ -161,25 +171,22 @@ header {
 }
 .header_gnb li ul li {
   width: 200px;
-  margin: clamp(8px,33px,0px) 0;
+  margin: clamp(8px, 33px, 0px) 0;
   padding-left: 10px;
   padding-right: 10px;
   display: flex;
   flex-direction: column;
-
-  
 }
 .header_gnb li ul li dl dd a {
   color: #333;
   font-size: 1em;
   font-weight: bold;
   line-height: 180%;
-
 }
 .header_gnb li ul li h3 {
   margin-top: 10px;
   border: 1px solid #bebebe;
-  display: flex;  /* 새로 */
+  display: flex; /* 새로 */
 }
 .header_gnb li ul li h3 a {
   color: black;
@@ -227,6 +234,8 @@ main {
   width: 100%;
   margin: auto;
   height: 500px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 8px 2px rgba(110, 110, 110, 0.8);
 }
 
 .main_banner {
@@ -234,7 +243,7 @@ main {
   height: 100%;
   position: relative;
   overflow: hidden;
-  box-shadow: 2px 2px 8px 2px rgba(221, 221, 221, 0.3);
+  border-radius: 25px;
 }
 .main_banner > div[class*="slide"] {
   position: absolute;
@@ -244,6 +253,7 @@ main {
   top: 0;
   opacity: 0;
   transition: opacity 1.5s;
+  border-radius: 25px;
 }
 .main_banner > div[class*="slide"].on {
   opacity: 1;
@@ -584,7 +594,7 @@ main {
   position: absolute;
 }
 /* 섹션 4 오른쪽 */
-.section_4_right{
+.section_4_right {
   width: 20%;
 }
 .section_4_right_top {
@@ -601,13 +611,12 @@ main {
   margin-bottom: 15px;
 }
 .section_4_right_top_button {
-  margin-bottom: 8px;
-  width: 85px;
+  margin-bottom: 5px;
+  width: 50px;
   height: 30px;
   color: #393939;
   font-size: 14px;
   font-weight: 500;
-  background: #dde5f1;
   text-align: center;
   line-height: 30px;
   border-radius: 25px;
@@ -626,16 +635,17 @@ main {
 }
 /* 섹션 6 */
 .section_6 {
-  padding: 40px 0;
+  padding: 40px 0px 5px 0px;
   max-width: 1200px;
   width: 100%;
   margin: auto;
   height: 330px;
   display: flex;
   margin-bottom: 5px;
+  justify-content: space-between;
 }
 .section_6_lefe {
-  width: 23%;
+  width: 21%;
 }
 .section_6_lefe_top {
   width: 100%;
@@ -662,6 +672,19 @@ main {
   line-height: 30px;
   border-radius: 25px;
 }
+.section_6_lefe_top_button_1 {
+  margin-bottom: 5px;
+  width: 50px;
+  height: 30px;
+  color: #393939;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 25px;
+}
+.section_6_lefe_top_button img{
+} 
 .section_6_lefe_bottom {
   width: 100%;
   display: flex;
@@ -673,6 +696,74 @@ main {
   width: 100%;
   border-radius: 15px;
 }
+.section_6_right {
+  width: 29%;
+}
+.section_6_right_top {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.section_6_right_top h3 {
+  color: #404040;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.section_6_right_top_button {
+  margin-bottom: 8px;
+  width: 85px;
+  height: 30px;
+  color: #393939;
+  font-size: 14px;
+  font-weight: 500;
+  background: #dde5f1;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 25px;
+}
+.section_6_right_bottom {
+  width: 100%;
+  height: 252px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #edf0f2;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px 2px rgba(221, 221, 221, 0.3);
+}
+.section_6_right_bottom_textbox{
+  width: 96%;
+  margin: auto;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.section_6_right_bottom_textbox_tx1{
+  width: 90%;
+  height: 20px;
+  padding: 10px 0;
+  border-bottom: 1px dashed #ddd;
+  display: block;
+  height: auto;
+    padding-left: 32px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.section_6_right_bottom_textbox_tx1 p{
+  width: 100%;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
 /* //섹션6 */
 .section_5 {
   max-width: 1200px;
