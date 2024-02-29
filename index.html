@@ -4,16 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>병무청</title>
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="icon" href="./img/XyBrb3N5.ico" type="image/x-icon"> 
+    <link rel="icon" href="./img/XyBrb3N5.ico" type="image/x-icon" />
   </head>
   <body>
     <div class="popup">
       해당 사이트는 학습용으로 제작되었으며 병무청과 무관합니다. 구직용
       포트폴리오로 상업적 목적이 없음을 알립니다.
-      <span>닫기</span>
+      <span class="popup1">닫기</span>
     </div>
     <div class="wrap">
       <header>
@@ -484,10 +485,21 @@
       <main>
         <section class="section_1">
           <div class="main_banner">
-            <div class="slide1 on"></div>
-            <div class="slide2"></div>
-            <div class="slide3"></div>
+            <div class="slidebox">
+              <div class="slide1"><a href="#"></a></div>
+              <div class="slide2"><a href="#"></a></div>
+              <div class="slide3"><a href="#"></a></div>
+            </div>
           </div>
+          <div class="main_banner_btn">
+            <img src="./img/s1_left.png" alt="left" />
+            <img src="./img/s1_right.png" alt="right" />
+          </div>
+          <ul class="main_banner_pager">
+            <li class="on"><a href="#">배너1</a></li>
+            <li><a href="#">배너2</a></li>
+            <li><a href="#">배너3</a></li>
+          </ul>
         </section>
         <!-- 섹션1 // -->
         <section class="section_2">
@@ -987,9 +999,12 @@
           <div class="f_bottom">
             <div class="f_bottom_box">
               <p>
-                (우)35208 대전광역시 서구 청사로 189, 정부대전청사 2동 / 대표전화 : 1588-9090(유료 / 월∼금 09:00~18:00, 공휴일 제외)
+                (우)35208 대전광역시 서구 청사로 189, 정부대전청사 2동 /
+                대표전화 : 1588-9090(유료 / 월∼금 09:00~18:00, 공휴일 제외)
               </p>
-              <p>Copyrightⓒ Military Manpower Administration. All Rights Reserved</p>
+              <p>
+                Copyrightⓒ Military Manpower Administration. All Rights Reserved
+              </p>
             </div>
           </div>
         </div>
@@ -997,6 +1012,5 @@
     </div>
     <script src="js/script.js"></script>
     <script src="js/custom.js"></script>
-    <script src="js/jquery.min.js"></script>
   </body>
 </html>

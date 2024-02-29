@@ -140,7 +140,7 @@ header {
   line-height: 100px;
   color: black;
   font-size: 20px;
-  font-weight:600;
+  font-weight: 600;
 }
 /* gnb 1뎁스 */
 .header_gnb li:hover {
@@ -235,19 +235,19 @@ main {
   max-width: 1200px;
   width: 100%;
   margin: auto;
-  height: 400px;
-  border-radius: 25px;
+  height: 450px;
+  position: relative;
 }
 
 .main_banner {
   width: 1000px;
-  height: 100%;
+  height: 450px;
   margin: auto;
   position: relative;
   overflow: hidden;
   border-radius: 25px;
 }
-.main_banner > div[class*="slide"] {
+/* .main_banner > div[class*="slide"] {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -256,24 +256,75 @@ main {
   opacity: 0;
   transition: opacity 1.5s;
   border-radius: 25px;
-}
-.main_banner > div[class*="slide"].on {
+} */
+/* .main_banner > div[class*="slide"].on {
   opacity: 1;
+} */
+.main_banner div {
+  position: relative;
+  width: 100%;
+  height: 450px;
 }
+.slidebox div {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+}
+.slidebox div a {	display: block;
+	text-indent: -999999px;}
 .slide1 {
-  background: url(../img/CAIS_HPIS_1.jpg) no-repeat center;
-  background-size: cover;
+  left: 0;
+  background: url(../img/CAIS_HPIS_1.jpg) no-repeat;
+  background-size: 100% 100%;
   border-radius: 25px;
+  height: 450px;
 }
 .slide2 {
-  background: url(../img/CAIS_HPIS_2.jpg) no-repeat center ;
-  background-size: cover;
+  left: 100%;
+  background: url(../img/CAIS_HPIS_2.jpg) 0 0 no-repeat;
+  background-size: 100% 100%;
   border-radius: 25px;
+  height: 450px;
 }
 .slide3 {
-  background: url(../img/CAIS_HPIS_3.jpg) no-repeat center /* top/cover */;
-  background-size: cover;
+  left: 200%;
+  background: url(../img/CAIS_HPIS_3.jpg) 0 0 no-repeat;
+  background-size: 100% 100%;
   border-radius: 25px;
+  height: 450px;
+}
+.main_banner_btn img{
+  width: 50px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.main_banner_btn img[alt='left'] {
+	left: 0%;
+}
+.main_banner_btn img[alt='right'] {
+	right: 0%;
+}
+.main_banner_pager li a{
+  display: block;
+  text-indent: -98999px;
+}
+.main_banner_pager{
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    gap: 10px;
+    transform: translateX(-50%);
+
+}
+.main_banner_pager li{
+    width: 14px;
+    height: 15px;
+    background: url(../img/s1_btnVisual.png) 0 -16px no-repeat;
+}
+.main_banner_pager li.on{
+    background-position: 0 0;
 }
 .section_2 {
   padding: 40px 0;
@@ -334,13 +385,13 @@ main {
 .main_top_box3 a {
   color: white;
 }
-.main_top_box1:hover{
+.main_top_box1:hover {
   transform: scale(1.1);
 }
-.main_top_box2:hover{
+.main_top_box2:hover {
   transform: scale(1.1);
 }
-.main_top_box3:hover{
+.main_top_box3:hover {
   transform: scale(1.1);
 }
 .main_bottom {
@@ -360,7 +411,7 @@ main {
   height: 100px;
   border-radius: 20px;
 }
-.bottom_box:hover{
+.bottom_box:hover {
   transition: all 0.5s linear;
   transform: scale(1.1);
 }
@@ -770,7 +821,7 @@ main {
   flex-direction: row;
   align-items: center;
 }
-.section_6_lefe_bottom_img{
+.section_6_lefe_bottom_img {
   overflow: hidden;
   border-radius: 15px;
 }
@@ -779,7 +830,7 @@ main {
   border-radius: 15px;
   transition: all 0.7s linear;
 }
-.section_6_lefe_bottom_img:hover img{
+.section_6_lefe_bottom_img:hover img {
   transform: scale(1.1);
 }
 .section_6_right {
@@ -953,7 +1004,7 @@ footer {
   height: 100px;
   margin-top: 5px;
 }
-.f_bottom_box{
+.f_bottom_box {
   width: 100%;
   margin-top: 20px;
 }
