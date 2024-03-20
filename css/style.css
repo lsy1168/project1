@@ -815,6 +815,7 @@ main {
 }
 
 .section_6_lefe_top_button_1 {
+
   margin-bottom: 5px;
   width: 50px;
   height: 30px;
@@ -915,6 +916,7 @@ main {
   border-radius: 25px;
 }
 .section_6_right_bottom {
+  overflow: hidden;
   width: 100%;
   height: 252px;
   display: flex;
@@ -931,7 +933,6 @@ main {
   height: 240px;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
 }
 .section_6_right_bottom_textbox_tx1 {
   width: 90%;
@@ -1084,10 +1085,16 @@ footer {
   width: 16.6%;
   height: 40px;
   background: white;
-  border: 1px solid #b1b8d9;
   text-align: center;
   line-height: 40px;
   font-weight: 600;
+}
+
+.f_top_box{
+    border-left: 1px solid #b1b8d9;
+}
+.f_top_box:last-child{
+    border-right: 1px solid #b1b8d9;
 }
 .footer_2 {
   border-top: 1px solid #b1b8d9;

@@ -5,7 +5,6 @@ btn.onclick = function () {
 	pop.style.display = 'none';
 };
 
-/* https://swiperjs.com/demos#autoplay */
 //* swiper */
 const swiper = new Swiper('.swiper1', {
 	// Optional parameters
