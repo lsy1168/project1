@@ -178,16 +178,20 @@ $(() => {
 }); //jQuery
 
 var i = 0;
-
+const spon=$(".s5_top_boxs ul");
+const box=spon.find('li');
+const width=box.width();
+console.log(box.length);//갯수
+spon.css('width',width*box.length)
 function slide01(){
-	if(i >= 15){
+	if(i >= box.length){
 		i=0
 	}else{
 		i++;
 	}
 	
 i++;
-$(".s5_top_boxs ul").animate({left:i * 88 * (-1) }, 500);
+$(".s5_top_boxs ul").animate({left:i * width * (-1) }, 500);
 }
 
 setInterval(slide01, 3000)
