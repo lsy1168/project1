@@ -76,7 +76,7 @@ $(() => {
 			setIntervalID = setInterval(() => {
 				//실행문
 				slideFn();
-			}, 5000);
+			}, 4000);
 		}
 		//슬라이드 인덱스번호 계산함수
 		function slideFn() {
