@@ -71,6 +71,7 @@ header {
 }
 .top_left_tx {
   margin-left: 10px;
+  font-weight: 600;
 }
 .top_right {
   background: white;
@@ -100,6 +101,25 @@ header {
   flex-direction: row;
   align-items: center;
 }
+.lss {
+  width: 15%;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 200px;
+}
+.lss > a {
+  font-family: "NotoSansKR";
+  font-size: 16px;
+  color: #000000;
+}
+.lss > a:hover {
+  border-bottom: 1px solid #134aa9;
+}
+
 .logo > h1 {
   font-size: 28px;
   font-weight: bold;
@@ -824,7 +844,7 @@ main {
   font-weight: 500;
   text-align: center;
   line-height: 30px;
-  border-radius: 25px;
+  border-radius: 25px;;
 }
 .section_6_lefe_top_button_2 {
   margin-bottom: 5px;
@@ -847,6 +867,9 @@ main {
   text-align: center;
   line-height: 30px;
   border-radius: 25px;
+}
+.section_6_lefe_top_button_1 img{
+  transform:rotate(270deg);
 }
 /* ====================================
  ======= 컨트롤버튼 수정 ======
@@ -1106,6 +1129,7 @@ footer {
   margin: auto;
   height: 100px;
   margin-top: 5px;
+  display: flex;
 }
 .f_bottom_box {
   width: 100%;
@@ -1120,4 +1144,16 @@ footer {
   font-size: 12px;
   margin-top: 20px;
   color: #454545;
+}
+.validation{
+  width: 10%;
+height: 100%;
+padding-top: 10px;
+}
+
+.validation .val1 > img {
+  width: 100%;
+}
+.validation .val2 > img {
+  width: 100%;
 }
