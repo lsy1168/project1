@@ -103,13 +103,16 @@ header {
 }
 .lss {
   width: 15%;
-  justify-content: space-between;
   align-items: center;
   background: #ffffff;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   margin-left: 200px;
+}
+.lss > a img{
+  width: 16px;
+  height: 16px;
 }
 .lss > a {
   font-family: "NotoSansKR";
@@ -119,6 +122,7 @@ header {
 .lss > a:hover {
   border-bottom: 1px solid #134aa9;
 }
+
 
 .logo > h1 {
   font-size: 28px;
