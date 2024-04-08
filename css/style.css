@@ -1,4 +1,10 @@
 @charset "utf-8";
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
 /* 레이아웃 */
 body {
   font-family: "Pretendard-Regular";
@@ -66,12 +72,12 @@ header {
   justify-content: flex-start;
 }
 .top_left img {
-  height: 50px;
-  width: 50px;
+  height: 2vw;
+  width: 2vw;
 }
 .top_left_tx {
   margin-left: 10px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .top_right {
   background: white;
@@ -82,7 +88,7 @@ header {
   justify-content: flex-end;
 }
 .top_right span {
-  font-size: 12px;
+  font-size: 0.7vw;
   margin: auto;
   width: 100px;
 }
@@ -115,8 +121,8 @@ header {
   height: 16px;
 }
 .lss > a {
-  font-family: "NotoSansKR";
-  font-size: 16px;
+  font-family: "Pretendard-Regular";
+  font-size: 1vw;
   color: #000000;
 }
 .lss > a:hover {
@@ -125,23 +131,25 @@ header {
 
 
 .logo > h1 {
-  font-size: 28px;
-  font-weight: bold;
-  margin-left: 10px;
+  font-family: "Pretendard-Regular";
+  font-size: 1.5vw;
+  font-weight: 600;
+  margin-left: 1vw;
 }
 .logo > h1 a {
   color: black;
 }
 .logo > .logo_img1 {
-  height: 70%;
+  width: 2vw;
+  height: 3vw;
 }
 .logo > .logo_img2 {
   height: 50%;
-  margin-left: 10px;
+  margin-left: 1.8vw;
 }
 .header_gnb {
   background: white;
-  height: 100px;
+  height: 5vw;
   width: 70%;
   display: flex;
   flex-direction: row;
@@ -243,8 +251,9 @@ header {
   align-items: center;
   justify-content: flex-end;
 }
-.full_menu img {
-  height: 50%;
+.full_menu>a>img {
+  width: 3vw;
+  height: 3vw;
 }
 /* //헤더 */
 main {
@@ -343,6 +352,7 @@ main {
   width: 100%;
   margin: auto;
   height: 240px;
+  font-family: 'Pretendard-Regular';
 }
 .btns {
   display: flex;
@@ -378,7 +388,7 @@ main {
 .btn a {
   color: #5c6c97;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
 }
 .btn:hover {
   transform: scale(1.1);
@@ -393,7 +403,7 @@ main {
 .panels {
   position: relative;
   width: 100%;
-  max-width: 1000px;
+ /*  max-width: 1000px; */
   margin: auto;
   height: 100px;
 }
@@ -409,9 +419,11 @@ main {
   justify-content: space-evenly;
   text-align: center;
   padding: 20px;
+  
 }
 .panels > .panel.on {
   display: flex;
+  
 }
 .panels > .panel a {
   flex: 1 1 calc(100% / 8);
@@ -421,6 +433,8 @@ main {
 }
 .panels span {
   color: black;
+  font-family: 'Pretendard-Regular';
+  font-weight: 600;
 }
 /* 섹션 3 */
 .section_3 {
