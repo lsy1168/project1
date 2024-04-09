@@ -241,7 +241,7 @@ let s6swiper = new Swiper('.section_6_right_bottom', {
 	direction: 'vertical',
 	loop: true,
 	autoplay: {
-		delay: 1500,
+		delay: 1600,
 		disableOnInteraction: false,
 	},
 	navigation: {

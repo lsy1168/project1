@@ -23,6 +23,12 @@ hr {
   max-width: 1200px;
   margin: auto;
 }
+.inner2 {
+  width:100%;
+  max-width: 800px;
+  margin: auto;
+  display: none;
+}
 /* //레이아웃 */
 .popup {
   position: fixed;
@@ -97,7 +103,6 @@ margin: 0vw 1vw 0vw 1vw;
     text-align: right;
     vertical-align: middle;
 }
-
 .top_right p {
   font-size: 0.7vw;
   margin: auto;
@@ -134,8 +139,6 @@ margin: 0vw 1vw 0vw 1vw;
 .lss > a:hover {
   border-bottom: 1px solid #134aa9;
 }
-
-
 .logo > h1 {
   font-family: "Pretendard-Regular";
   font-size: 1.5vw;
@@ -428,6 +431,8 @@ height: 3.5vw;
     margin-bottom: 0.5vw;
 }
 .mian_bottom_boxs:hover{
+  height: 5vw;
+  width: 5vw;
   background: #30498cb7;
 }
 .panels span {
@@ -1061,7 +1066,7 @@ footer {
   display: flex;
 }
 .f_top_box {
-  width: 11vw;
+  width: 10.32vw;
   height: 2vw;
   background: white;
   text-align: center;
@@ -1097,6 +1102,9 @@ footer {
   font-size: 0.7vw;
   margin-top: 1vw;
   color: #454545;
+}
+.f_top a{
+  color: black;
 }
 .validation{
   width: 10%;
