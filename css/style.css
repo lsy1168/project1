@@ -84,7 +84,6 @@ header {
   align-items: center;
 }
 .top_right img {
-/*   width: auto; */
 height: 2vw;
 margin: 0vw 1vw 0vw 1vw; 
 }
@@ -145,7 +144,7 @@ margin: 0vw 1vw 0vw 1vw;
   margin-left: 1vw;
 }
 .logo > h1 a {
-  color: #134aa9;
+  color: #494949;
 }
 .logo img:nth-child(1) {
   width: 2vw;
@@ -180,7 +179,7 @@ margin: 0vw 1vw 0vw 1vw;
   width: 100%;
   background-color: white;
   left: 0;
-  top: 7.5rem;
+  top: 7vw;
   height: 0px;
   overflow: hidden;
   padding: 0 0;
@@ -198,21 +197,21 @@ margin: 0vw 1vw 0vw 1vw;
   display: flex;
 }
 .header_gnb li ul li {
-  width: 200px;
-  margin: clamp(8px, 33px, 0px) 0;
-  padding-left: 10px;
-  padding-right: 10px;
+  width: 10vw;
+  margin: clamp(0.4vw, 1.7vw, 0px) 0;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
   display: flex;
   flex-direction: column;
 }
 .header_gnb li ul li dl dd a {
   color: #333;
-  font-size: 1em;
+  font-size: 1vw;
   font-weight: bold;
   line-height: 180%;
 }
 .header_gnb li ul li h3 {
-  margin-top: 10px;
+  margin-top: 0.5vw;
   border: 1px solid #bebebe;
   display: flex;
   /* 새로 */
@@ -223,24 +222,24 @@ margin: 0vw 1vw 0vw 1vw;
   line-height: 200%;
   margin-bottom: 3px;
   font-size: 0.8em;
-  margin-left: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-left: 0.5vw;
+  margin-top: 0.3vw;
+  margin-bottom: 0.3vw;
 }
 .header_gnb li ul li dl dd {
-  margin-bottom: 3px;
+  margin-bottom: 0.2vw;
 }
 .header_gnb li ul li dl dt {
   display: flex;
-  margin-left: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-left: 0.3vw;
+  margin-top: 0.3vw;
+  margin-bottom: 0.3vw;
 }
 .header_gnb li ul li dl dt a {
   color: #666666;
-  font-size: 14px;
+  font-size: 0.7vw;
   line-height: 170%;
-  padding-left: 5px;
+  padding-left: 0.3vw;
 }
 /* //투뎁스 */
 .full_menu {
