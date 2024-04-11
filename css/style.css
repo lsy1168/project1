@@ -147,7 +147,8 @@ margin: 0vw 1vw 0vw 1vw;
   margin-left: 1vw;
 }
 .logo > h1 a {
-  color: #494949;
+  color: #30488c;
+  ;
 }
 .logo img:nth-child(1) {
   width: 2vw;
@@ -1236,17 +1237,19 @@ html.open {
     }
     
 #menu ul.nav li a:hover {
-  background:#eee;
+  background:#30488c;
+  color: white
+  ;
     }
 .sub_mobile li{
-  width: 8vw;
-  height: 3vw;
+  width: 6.5vw;
+  height: 2.5vw;
   margin-top: 0.5vw;
 }
 .sub_mobile{
   display: flex;
   justify-content: center;
-  gap: 0.2vw;
+  gap: 0.6vw;
 }
      
 #menu ul.nav li .sub_mobile a {
@@ -1255,13 +1258,16 @@ html.open {
     display:block;
     width:100%;
     z-index:999;
-    background:#ccc;
+    background:#e0ebfa;
+    ;
     transition: all 2s;
     font-size: 0.8vw;
+    border-radius: 1vw;
   }
 
 #menu ul.nav li .sub_mobile a:hover {
-    background:#787878;
+    background:#30488c;
+    ;
     color:#fff;
     z-index:999;
     }
