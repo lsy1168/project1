@@ -42,20 +42,28 @@
         display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
       }
       .bottom2 div:nth-child(1) img{
         width: 2rem;
         height: 2rem;
+        border-radius: 5px;
       }
       .bottom2 div:nth-child(2){
         font-size: 2rem;
         color: white;
+        
 
       }
+      .title{
+        color: white;
+        font-size: 4vw;
+       }
       .lss2 img{
         width: 2rem;
         height: 2rem;
         margin-right: 1rem;
+        border-radius: 5px;
       }
       .section_1{
         width: 95%;
@@ -511,4 +519,143 @@
       footer{
         background: #021f3c;
       }
+
+/* 풀메뉴 */
+      .btn2 {
+        width: 10vw;
+        height: 10vw;
+        right: 0px;
+        top: 0px;
+        z-index: 1;
+        background-image: url(../img/menu2.png);
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+      }
+      
+      .close {
+        width: 10vw;
+        height: 10vw;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        background-image: url("../img/x.png");
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+      }
+      
+      #menu {   
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        right: 110vw;
+        z-index: 10;
+        border: 1px solid #c9c9c9;
+        background-color: white;
+        text-align: center;
+        font-weight: bold;
+        transition: All 0.2s ease;
+        -webkit-transition: All 0.2s ease;
+        -moz-transition: All 0.2s ease;
+        -o-transition: All 0.2s ease;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        padding: 2vw 0vw 2vw 0vw;
+      }
+      
+      #menu a{
+       padding:0;
+       text-decoration: none;
+       font-size: 1vw;
+       color: #000000;
+       display: block;
+       transition: 0.3s;
+       }
+      
+      #menu.open {
+        top: 15vw;
+        right: 0.1vw;
+      }
+      
+      .page_cover.open {
+        display: block;
+      }
+      
+      .page_cover {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index: 4;
+        display: none;
+      }
+      
+      #menu ul { 
+          margin:0; 
+          padding:0;
+          width: 100%;
+          }
+          
+      #menu ul.nav li {
+      /*     position:relative;  */
+      /*     top: 0; */
+        /*   width:100%;  */
+        width: 100%;
+          list-style-type:none; 
+          text-align: center;
+          }
+          
+      #menu ul.nav li a {
+          display:block; 
+          width:100%; 
+          height:100%; 
+          line-height:8vw; 
+      /*     text-indent:20px; */
+          text-align: left;
+          color:#000000; 
+          font-weight:bold; 
+          text-decoration:none;
+          text-align: center;
+          font-size: 4vw;
+          }
+          
+      #menu ul.nav li a:hover {
+        background:#eee;
+          }
+      .sub_mobile li{
+        width: 11vw;
+        height: 5vw;
+        margin-top: 0.5vw;
+      }
+      .sub_mobile{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 0.2vw;
+      }
+           
+      #menu ul.nav li .sub_mobile a {
+          position:relative;
+      /*     top: -2.6vw;
+          left: 7vw; */
+       /*    float:left; */
+          display:block;
+          width:100%;
+          z-index:999;
+          background:#ccc;
+          transition: all 2s;
+          font-size: 2vw;
+          line-height:5vw; 
+        }
+      
+      #menu ul.nav li .sub_mobile a:hover {
+          background:#787878;
+          color:#fff;
+          z-index:999;
+          }
 }
