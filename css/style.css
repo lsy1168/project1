@@ -435,7 +435,7 @@ height: 3.5vw;
 .mian_bottom_boxs:hover{
   height: 5vw;
   width: 5vw;
-  background: #30498cb7;
+  background: #c8daf4;
 }
 .panels span {
   color: black;
@@ -967,6 +967,7 @@ height: 3.5vw;
   display: flex;
   float: left;
   background-color: #f6f7fb;
+  border-radius: 0.5vw;
 }
 .s5_top_boxs {
   width: 55vw;
@@ -975,6 +976,7 @@ height: 3.5vw;
   overflow: hidden;
   left: 1vw;
   top: 0px;
+  border-radius: 0.5vw;
 }
 .sliders {
   position: absolute;
@@ -982,6 +984,7 @@ height: 3.5vw;
   width: 180.5vw;
   height: 3.3vw;
   top: 0px;
+  border-radius: 0.5vw;
 }
 .s5_top_boxs_slide {
   float: left;
@@ -992,6 +995,7 @@ height: 3.5vw;
   margin-top: 0.4vw;
   overflow: hidden;
   margin-right: 0.5vw;
+  border-radius: 0.5vw;
 }
 .s5_top_boxs_slide a{
   line-height: 2vw;
@@ -1026,6 +1030,7 @@ height: 1.3vw;
   background-color: white;
   text-align: center;
   margin-left: 2vw;
+  border-radius: 0.5vw;
 }
 .s5_top_box > a {
   line-height: 2vw;
@@ -1047,6 +1052,7 @@ height: 1.3vw;
   border: 1px solid #b1b8d9;
   background-color: #f6f7fb;
   text-align: center;
+  border-radius: 0.5vw;
 }
 .s5_botton_box a {
   line-height: 2vw;
