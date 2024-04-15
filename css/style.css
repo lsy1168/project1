@@ -1003,7 +1003,7 @@ background-image: url(../img/right-arrow.png);
 }
 .w1750_2{
   margin: 0 auto;
-  width: 100%;
+  width: calc(100% - 30px);
   max-width: 1750px;
   position: relative;
   display: flex;
@@ -1034,11 +1034,6 @@ background-image: url(../img/right-arrow.png);
     justify-content: space-between;
 }
 
-/* .section_6_lefe_top_button_1 img,.section_6_lefe_top_button_2 img,.section_6_lefe_top_button_3 img{
-  width: 0.8vw;
-  height: 1.4vw;
-  }
- */
 .so{
   transform:rotate(270deg);
 }
@@ -1341,7 +1336,7 @@ html.open {
   height: 100%;
   position: fixed;
   top: 0px;
-  right: -100vw;
+  right: -150vw;
   z-index: 10;
   border: 1px solid #c9c9c9;
   background: #eee;
