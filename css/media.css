@@ -7,6 +7,15 @@
     height: 30%;
     border-radius: 0;
   }
+  .pager-btn {
+    cursor: pointer;
+    padding: 3px 8px;
+    background-color: #e7e9ec;
+    color: #434343;
+    border: none;
+    margin: 0 5px;
+    border-radius: 5vw;
+  }
     .header_top {
       flex-direction: column;
       align-items: center;
@@ -92,12 +101,12 @@
 }
 .section_3{
 width: 100%;
-height: 95vw;
+height: 80vw;
 }
 .section3_top{
   margin-top: 3vw;
   height: 3rem;
-  margin-bottom: 3vw;
+/*   margin-bottom: 3vw; */
 }
 .section3_top_left{
   width: 75%;
@@ -106,7 +115,7 @@ height: 95vw;
   margin-right: 15px;
 }
 .section3_top_left a{
-  font-size: 1.6rem;
+  font-size: 5vw;
   margin-right: 3vw;
 }
 .red1,.red2,.red3{
@@ -136,7 +145,7 @@ height: 95vw;
 .section3_bottom2 {
   position: relative;
   width: 100%;
-  height: 330px;
+  height: 53vw;
  /*  overflow: hidden; */
   display: block;
 }
@@ -151,7 +160,7 @@ height: 95vw;
 .section3_bottom_box1,.section3_bottom_box2,.section3_bottom_box3 {
   flex: 0 0 100%; /* 각 박스의 너비를 설정합니다. */
   max-width: 99%; /* 최대 너비를 설정해줄 수도 있습니다. */
-  height: 290px;
+  height: 100%;
   
 }
 .section3_bottom_box1:hover {
@@ -164,18 +173,18 @@ height: 95vw;
 }
 
 .section3_bottom_box1 > div .sort,.section3_bottom_box2 > div .sort,.section3_bottom_box3 > div .sort {
-  margin-top: 2rem;
-  margin-left: 1.5rem;
-  width: 5rem;
-  height: 2rem;
-  font-size: 0.9rem;
-  line-height: 2rem;
+  margin-top: 5vw;
+  margin-left: 4vw;
+  width: 15vw;
+  height: 5vw;
+  font-size: 2.5vw;
+  line-height: 5vw;
   border-radius: 1rem;
 }
 
 .section3_bottom_box1 > div .title,.section3_bottom_box2 > div .title,.section3_bottom_box3 > div .title {
-  margin-top: 1.5rem;
-  margin-left: 1.5rem;
+  margin-top: 5vw;
+  margin-left: 4vw;
   font-size: 4vw;
   width: 90%;
   height: 4vw;
@@ -185,17 +194,17 @@ height: 95vw;
 .section3_bottom_box1 > div .text,.section3_bottom_box2 > div .text,.section3_bottom_box3 > div .text {
   width: 90%;
   height: 15vw;
-  margin-top: 1rem;
-  margin-left: 1.5rem;
-  line-height: 1.5rem;
+  margin-top: 4vw;
+  margin-left: 4vw;
+  line-height: 3vw;
   font-size: 2.8vw;
 }
 
 .section3_bottom_box1 > div .date,.section3_bottom_box2 > div .date,.section3_bottom_box3 > div .date {
   width: 2%;
   position: relative;
-  right: -75vw;
-  bottom: -2rem;
+  right: -72vw;
+  bottom: -5vw;
   padding: 0 1.5vw;
   line-height: 1.5vw;
   color: #434343;

@@ -1341,7 +1341,7 @@ html.open {
   height: 100%;
   position: fixed;
   top: 0px;
-  right: -95vw;
+  right: -100vw;
   z-index: 10;
   border: 1px solid #c9c9c9;
   background: #eee;
