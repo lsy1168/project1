@@ -506,4 +506,115 @@ bottom: 0;
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.footer {
+height: 65vw;
+}
+.Newfoot-top {
+  padding: 1vw 0;
+  border-bottom: 1px solid #565463;
+  display: flex;
+  flex-direction: column;
+  align-items: normal
+}
+.Newfoot-meun1 {
+    width: 100%;
+}
+.Newfoot-meun1 > ul {
+  margin-top: 3vw;
+  margin-left: -4.4vw;
+}
+.Newfoot-meun1 > ul > li.on > a {
+  color: #eeeb00;
+  font-weight: 800;
+  font-size: 4vw;
+}
+.Newfoot-meun1 > ul > li {
+  float: left;
+  margin: 3vw 0;
+  padding-left: 7vw;
+  background: url(https://www.unikorea.go.kr/unikorea/common/images/2022/foot_bg1.png) no-repeat left 4vw center;
+}
+.Newfoot-meun1 > ul > li > a {
+  display: block;
+  color: #fff;
+  font-size: 3vw;
+  line-height:2vw;
+}
+.Newfoot-select1 {
+  margin-top: 3vw;
+  width: 98%;
+}
+.Newfoot-select1 > ul {
+  display: flex;
+  flex-direction: column;
+}
+.Newfoot-select1 > ul > li {
+  float: left;
+  width: 100%;
+  height: 8vw;
+  margin: 6px 3px 0;
+  position: relative;
+}
+.Newfoot-select1 > ul > li > a {
+  position: relative;
+  padding: 0 4vw 0 4vw;
+  color: #fff;
+  font-size: 3vw;
+  height: 100%;
+  line-height: 1.2;
+  background: #4c495f;
+  display: flex;
+  align-items: center;
+  border-radius: 3vw;
+}
+.Newfoot-select1 > ul > li > a::after {
+    top: calc(50% - 3.5px);
+    right: 3vw;
+    width: 3vw;
+    height: 1.5vw;
+    content: "";
+    background: url(../img/foot_bg1.png) 0% 0% / cover no-repeat;
+}
+.Newfoot-select1 .show-box1 {
+  width: 90%;
+  max-height: 35vw;
+  padding: 2vw 4vw;
+  border-radius: 2vw 2vw 0px 0px;
+}
+.Newfoot-select1 .show-box1 > a {
+  font-size: 3vw;
+  padding-bottom: 1.5vw;
+}
+.Newfoot-copy1 {
+  color: #fff;
+  font-size: 2.6vw;
+  line-height: 1.7;
+}
+.validation {
+display: none;
+}
+.popup {
+  position: fixed;
+  width: min(60%, 500px);
+  padding: 5% 2%;
+  font-size: 3vw;
+  line-height: 1.75;
+  background: #fff;
+  z-index: 999999;
+  top: 10%;
+  left: 20%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+.popup > span {
+  user-select: none;
+  cursor: pointer;
+  position: absolute;
+  background: gray;
+  padding: 1% 3%;
+  right: 10%;
+  bottom: 10%;
+  color: #fff;
+  border-radius: 15px;
+}
 }
