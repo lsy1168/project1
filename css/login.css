@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    height: 580px;
+    height: 650px;
   }
   .container h2 {
     color: #ffffff;
@@ -11,13 +11,14 @@
     font-weight: 600;
     line-height: 175%; /* 68.25px */
     text-align: center;
-    margin: 47px 0 65px;
+    margin: 47px 0 6vw;
   }
   .container form {
     width: 372px;
     margin: auto;
   }
   .container .input_group {
+    
     display: flex;
     width: 372px;
     flex-direction: column;
@@ -28,11 +29,12 @@
     margin-bottom: 30px;
   }
   .container .input_group label {
-    color: #080808;
+    color: #000000;
     font-weight: 600;
     font-size: 16px;
     width: 100%;
   }
+
   .container .input_group label input {
     display: block;
     width: 100%;

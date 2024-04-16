@@ -24,7 +24,6 @@ main{
     width: 100%;
     padding-bottom: 5vw;
     display: flex;
-    background: url(../img/sub_bg1.gif)repeat-y left top;
 }
 .w1750{
   margin: 0 auto;
@@ -35,6 +34,7 @@ main{
 .w1750_3{
   width: 100%;
   position: relative;
+  border-bottom: 1px solid #dedede;
 }
 .header_top>div{
 display: flex;
@@ -336,6 +336,7 @@ input::placeholder {
     float: left;
     width: 14.5vw;
     margin-right: 2vw;
+    border: 1px solid #dedede;
 /*     padding: 0 1px; */
 }
 .sub-menu > h2 {
@@ -350,6 +351,7 @@ input::placeholder {
 }
 .sub-menu > h2::before{
     background: url(../img/sub2_title1.png) no-repeat center;
+    background-size: cover;
 }
 .sub-menu > h2::before {
     display: block;
@@ -415,7 +417,7 @@ input::placeholder {
 .content-top {
     position: relative;
     margin-bottom: 1.5vw;
-    padding: 3vw 0 1vw 0;
+    padding: 3vw 0 1.5vw 0;
     border-bottom: 1px solid #333;
 }
 .pagelink a{
@@ -430,7 +432,7 @@ input::placeholder {
 .content-top ul.print-zoom {
     position: absolute;
     right: 0;
-    bottom: 1vw;
+    bottom: 1.5vw;
     border-right: 1px solid #ededed;
 }
 .content-top ul.print-zoom > li {
@@ -438,6 +440,9 @@ input::placeholder {
     height: 1vw;
     padding: 0 0.8vw;
     border-left: 1px solid #ededed;
+}
+.content-top ul.print-zoom > li img{
+  height: 100%;
 }
 button {
     overflow: visible;
@@ -484,6 +489,7 @@ button {
     top: 0;
     left: 3vw;
     background: url(../img/ico_minwon_introbox.png) 50% 0 no-repeat;
+    background-size: cover;
 }
 .content-body .section-introbox .text {
     padding: 2vw 0 0 6vw;
@@ -527,13 +533,13 @@ button {
 }
 .contentAdmin {
     position: relative;
-    margin-top: 1.5;
-    padding-right: 85px;
+    margin-top: 1.5vw;
+    padding-right: 5.5vw;
 }
 .contentAdmin .adminArea {
     border: 1px solid #c0c0c0;
-    padding: 16px 0 16px 25px;
-    height: 48px;
+    padding: 1vw 0 1vw 1.2vw;
+    height: 1vw;
 }
 .contentAdmin .adminArea .left {
     width: 81%;
@@ -545,8 +551,10 @@ button {
 }
 .contentAdmin .adminArea dl dt, .contentAdmin .adminArea dl dd {
     display: inline-block;
-    height: 15px;
+
+    height: 1vw;
     vertical-align: middle;
+    font-size: 0.9vw;
     font-weight: 700;
 }
 .contentAdmin a.top {
@@ -554,24 +562,23 @@ button {
     position: absolute;
     top: 0;
     right: 0;
-    width: 80px;
-    line-height: 46px;
+    width: 4.2vw;
+    line-height: 3vw;
     padding-top: 2px;
     background: #4B76A4;
-    font-size: 16px;
-    font-size: 1.6rem;
-    font-weight: 700;
+    font-size: 1vw;
+    font-weight: 600;
     color: #fff;
     text-align: center;
 }
 .contentAdmin a.top:before {
     display: inline-block;
-    width: 21px;
-    height: 34px;
+    width: 1vw;
+    height: 1.7vw;
     content: '';
     background: url(../img/top_arrow.png) 0 -2px no-repeat;
     vertical-align: middle;
-    margin-right: 5px;
+    margin-right: 0.2vw;
 }
 /* ////메인컨텐츠 */
 /* /////컨테츠 바디 */
