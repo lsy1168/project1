@@ -568,17 +568,17 @@ background-image: url(../img/right-arrow.png);
   font-weight: 600;
   overflow: hidden;
   word-break: keep-all;
-  -webkit-line-clamp: 2;
+/*   -webkit-line-clamp: 2; */
   text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
+/*   display: -webkit-box;
+  -webkit-box-orient: vertical; */
 }
 .section3_bottom_box > div .text {
   overflow: hidden;
-  -webkit-line-clamp: 3;
+/*   -webkit-line-clamp: 3; */
   text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
+/*   display: -webkit-box; */
+/*   -webkit-box-orient: vertical; */
   color: #6e6e6e;
   line-height: 1vw;
   font-size: 0.8vw;
@@ -636,17 +636,17 @@ background-image: url(../img/right-arrow.png);
   font-weight: 600;
   overflow: hidden;
   word-break: keep-all;
-  -webkit-line-clamp: 2;
+/*   -webkit-line-clamp: 2; */
   text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
+/*   display: -webkit-box;
+  -webkit-box-orient: vertical; */
 }
 .section3_bottom_box1 > div .text {
   overflow: hidden;
-  -webkit-line-clamp: 3;
+/*   -webkit-line-clamp: 3; */
   text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
+/*   display: -webkit-box; */
+/*   -webkit-box-orient: vertical; */
   color: #6e6e6e;
   line-height: 1vw;
   font-size: 0.8vw;
@@ -695,17 +695,17 @@ background-image: url(../img/right-arrow.png);
   font-weight: 600;
   overflow: hidden;
   word-break: keep-all;
-  -webkit-line-clamp: 2;
+/*   -webkit-line-clamp: 2; */
   text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
+/*   display: -webkit-box;
+  -webkit-box-orient: vertical; */
 }
 .section3_bottom_box2 > div .text {
   overflow: hidden;
-  -webkit-line-clamp: 3;
+/*   -webkit-line-clamp: 3; */
   text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
+/*   display: -webkit-box; */
+/*   -webkit-box-orient: vertical; */
   color: #6e6e6e;
   line-height: 1vw;
   font-size: 0.8vw;
@@ -754,17 +754,17 @@ background-image: url(../img/right-arrow.png);
   font-weight: 600;
   overflow: hidden;
   word-break: keep-all;
-  -webkit-line-clamp: 2;
+/*   -webkit-line-clamp: 2; */
   text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
+/*   display: -webkit-box; */
+/*   -webkit-box-orient: vertical; */
 }
 .section3_bottom_box3 > div .text {
   overflow: hidden;
-  -webkit-line-clamp: 3;
+/*   -webkit-line-clamp: 3; */
   text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
+/*   display: -webkit-box;
+  -webkit-box-orient: vertical; */
   color: #6e6e6e;
   line-height: 1vw;
   font-size: 0.8vw;
@@ -1380,9 +1380,9 @@ html.open {
 /*   text-align: center; */
   font-weight: bold;
   transition: All 0s ease;
-  -webkit-transition: All 0s ease;
+/*   -webkit-transition: All 0s ease;
   -moz-transition: All 0s ease;
-  -o-transition: All 0s ease;
+  -o-transition: All 0s ease; */
 /*   padding-top: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;

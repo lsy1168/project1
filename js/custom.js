@@ -229,37 +229,6 @@ document.addEventListener("DOMContentLoaded", function() {
 	});
 });
 
-/* 
-let s6swiper = new Swiper('.section_6_right_bottom', {
-	slidesPerView: 6,
-	spaceBetween: 0,
-	direction: 'vertical',
-	loop: true,
-	autoplay: {
-		delay: 1600,
-		disableOnInteraction: false,
-	},
-	navigation: {
-		nextEl: '.section_6_lefe_top_button_1 img.next',
-		prevEl: '.section_6_lefe_top_button_1 img.next',
-	},
-});
-const stopS6 = document.querySelector('.section_6_right_top .control');
-stopS6.addEventListener('click', function (e) {
-	e.preventDefault();
-
-	if (this.classList.contains('pause')) {
-		s6swiper.autoplay.stop();
-		this.classList.remove('pause');
-		this.classList.add('play');
-	} else if (this.classList.contains('play')) {
-		s6swiper.autoplay.start();
-		this.classList.remove('play');
-		this.classList.add('pause');
-	}
-});
- */
-
 
 /* 모바일 src3 슬라이드 */
 // 첫 번째 슬라이드 관련 변수 설정

@@ -114,7 +114,7 @@ let s6swiper = new Swiper('.section_6_right_bottom', {
             const totalSlides = this.slides.length;
             // 카운팅을 표시하는 요소에 현재 슬라이드 번호와 전체 슬라이드 수 표시
             const slideCountElement = document.querySelector('.s6-slide-count');
-            slideCountElement.innerHTML = `<span style="color: black;">${currentSlideIndex}</span> / <span style="color: #444;">${totalSlides}</span>`;
+            slideCountElement.innerHTML = `<span style="color: black;">${currentSlideIndex}</span> / <span style="color: #777;">${totalSlides}</span>`;
         }
     }
 });
