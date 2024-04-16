@@ -94,7 +94,6 @@
 
 .swiper-backface-hidden .swiper-slide {
     transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
     backface-visibility: hidden
 }
 
@@ -118,11 +117,6 @@
 .swiper-css-mode>.swiper-wrapper {
     overflow: auto;
     scrollbar-width: none;
-    -ms-overflow-style: none
-}
-
-.swiper-css-mode>.swiper-wrapper::-webkit-scrollbar {
-    display: none
 }
 
 .swiper-css-mode>.swiper-wrapper>.swiper-slide {
@@ -156,24 +150,16 @@
     scroll-snap-stop: always
 }
 
-.swiper-css-mode.swiper-centered.swiper-horizontal>.swiper-wrapper>.swiper-slide:first-child {
-    margin-inline-start: var(--swiper-centered-offset-before)
-}
-
 .swiper-css-mode.swiper-centered.swiper-horizontal>.swiper-wrapper::before {
     height: 100%;
     min-height: 1px;
-    width: var(--swiper-centered-offset-after)
 }
 
-.swiper-css-mode.swiper-centered.swiper-vertical>.swiper-wrapper>.swiper-slide:first-child {
-    margin-block-start: var(--swiper-centered-offset-before)
-}
+
 
 .swiper-css-mode.swiper-centered.swiper-vertical>.swiper-wrapper::before {
     width: 100%;
     min-width: 1px;
-    height: var(--swiper-centered-offset-after)
 }
 
 .swiper-3d .swiper-slide-shadow,
@@ -250,7 +236,6 @@
 }
 
 .swiper-virtual .swiper-slide {
-    -webkit-backface-visibility: hidden;
     transform: translateZ(0)
 }
 
@@ -264,12 +249,10 @@
 
 .swiper-virtual.swiper-css-mode.swiper-horizontal .swiper-wrapper::after {
     height: 1px;
-    width: var(--swiper-virtual-size)
 }
 
 .swiper-virtual.swiper-css-mode.swiper-vertical .swiper-wrapper::after {
     width: 1px;
-    height: var(--swiper-virtual-size)
 }
 
 :root {
@@ -440,7 +423,6 @@ button.swiper-pagination-bullet {
     margin: 0;
     padding: 0;
     box-shadow: none;
-    -webkit-appearance: none;
     appearance: none
 }
 
@@ -663,13 +645,6 @@ button.swiper-pagination-bullet {
     pointer-events: none
 }
 
-.swiper-fade .swiper-slide-active {
-    pointer-events: auto
-}
-
-.swiper-fade .swiper-slide-active .swiper-slide-active {
-    pointer-events: auto
-}
 
 .swiper-cube {
     overflow: visible
@@ -677,7 +652,6 @@ button.swiper-pagination-bullet {
 
 .swiper-cube .swiper-slide {
     pointer-events: none;
-    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     z-index: 1;
     visibility: hidden;
@@ -694,15 +668,10 @@ button.swiper-pagination-bullet {
     transform-origin: 100% 0
 }
 
-.swiper-cube .swiper-slide-active,
-.swiper-cube .swiper-slide-active .swiper-slide-active {
-    pointer-events: auto
-}
 
 .swiper-cube .swiper-slide-active,
 .swiper-cube .swiper-slide-next,
 .swiper-cube .swiper-slide-prev {
-    pointer-events: auto;
     visibility: visible
 }
 
@@ -728,7 +697,6 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-cube .swiper-slide-next+.swiper-slide {
-    pointer-events: auto;
     visibility: visible
 }
 
@@ -737,7 +705,6 @@ button.swiper-pagination-bullet {
 .swiper-cube .swiper-slide-shadow-cube.swiper-slide-shadow-right,
 .swiper-cube .swiper-slide-shadow-cube.swiper-slide-shadow-top {
     z-index: 0;
-    -webkit-backface-visibility: hidden;
     backface-visibility: hidden
 }
 
@@ -747,7 +714,6 @@ button.swiper-pagination-bullet {
 
 .swiper-flip .swiper-slide {
     pointer-events: none;
-    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     z-index: 1
 }
@@ -756,22 +722,18 @@ button.swiper-pagination-bullet {
     pointer-events: none
 }
 
-.swiper-flip .swiper-slide-active,
-.swiper-flip .swiper-slide-active .swiper-slide-active {
-    pointer-events: auto
-}
+
 
 .swiper-flip .swiper-slide-shadow-flip.swiper-slide-shadow-bottom,
 .swiper-flip .swiper-slide-shadow-flip.swiper-slide-shadow-left,
 .swiper-flip .swiper-slide-shadow-flip.swiper-slide-shadow-right,
 .swiper-flip .swiper-slide-shadow-flip.swiper-slide-shadow-top {
     z-index: 0;
-    -webkit-backface-visibility: hidden;
     backface-visibility: hidden
 }
 
 .swiper-creative .swiper-slide {
-    -webkit-backface-visibility: hidden;
+
     backface-visibility: hidden;
     overflow: hidden;
     transition-property: transform, opacity, height
@@ -783,7 +745,6 @@ button.swiper-pagination-bullet {
 
 .swiper-cards .swiper-slide {
     transform-origin: center bottom;
-    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     overflow: hidden
 }

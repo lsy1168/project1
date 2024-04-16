@@ -2,15 +2,8 @@
     position: relative;
     display: block;
     box-sizing: border-box;
-/*     -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-touch-callout: none;
-    -khtml-user-select: none;
-    -ms-touch-action: pan-y; */
     touch-action: pan-y;
-/*     -webkit-tap-highlight-color: transparent */
+
 }
 
 .slick-list {
@@ -29,14 +22,6 @@
     cursor: pointer;
 }
 
-.slick-slider .slick-list,
-.slick-slider .slick-track {
-    -webkit-transform: translate3d(0, 0, 0);
-/*     -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    -o-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0) */
-}
 
 .slick-track {
     position: relative;
