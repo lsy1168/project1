@@ -125,6 +125,12 @@ height: 72vw;
   width: 1.4vw;
   height: 1.4vw;
 }
+.red4{
+  bottom: 3px;
+  right: -10px;
+  width: 1.4vw;
+  height: 1.4vw;
+}
 .section3_top_box_right_box {
   width: 12vw;
   height: 4.5vw;
@@ -302,6 +308,7 @@ height: 72vw;
   border-bottom: 2px solid #d8dfe5;
 }
 .section_4_center_top h3 {
+  width: 22%;
   font-size: 4.5vw;
   font-weight: 600;
 }
@@ -349,17 +356,16 @@ height: 72vw;
   height: 7vw;
 }
 .section_4_right_top h3 {
-
   font-size: 4.5vw;
 
 }
 .section_4_right_top_button {
   margin-top: 2vw;
-  width: 8vw;
+  width: 15vw;
   height: 5vw;
 }
 .section_4_right_top_button>.section_6_lefe_top_button_1{
-  width: 8vw;
+  width: 15vw;
   height: 5vw;
   display: flex;
   justify-content: space-between;
@@ -375,7 +381,11 @@ height: 72vw;
   overflow: hidden;
   border-radius: 3vw;
 }
-
+.slide-count{
+  width: 20vw;
+  margin-top: 1vw;
+  font-size: 3vw;
+}
 .control{
   width: 8vw;
   height: 5vw;
@@ -459,7 +469,7 @@ height: 105vw;
   margin-bottom: 1vw;
 }
 .src6_main-app1 {
-  margin-left: 3vw;
+  margin-left: 5vw;
   width: 15vw;
   display: flex;
   align-items: center;
@@ -473,8 +483,13 @@ height: 105vw;
   position: absolute;
 right: 0;
 bottom: 0;
-  width: 7vw;
+  width: 18vw;
   height: 5.5vw;
+}
+.s6-slide-count {
+  width: 8.8vw;
+  margin-top: 1vw;
+  font-size: 3vw;
 }
 .section_6_right_bottom {
   width: 100%;

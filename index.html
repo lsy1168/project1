@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>병무청</title>
     <!-- Slick 라이브러리 스타일시트 -->
-    <link
+<!--     <link
       rel="stylesheet"
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-    />
-    <link
+    /> -->
+    <link rel="stylesheet" href="./css/cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+<!--     <link
       rel="stylesheet"
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-    />
+    /> -->
+    <link rel="stylesheet" href="./css/cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
     <link rel=" =shortcut icon" href="./img/favicon-16x16.png" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link
@@ -46,7 +48,7 @@
               </ul>
             </div>
           </div>
-          <nav class="w1750">
+          <nav class="w1750_3">
             <div class="header_bottom">
               <div class="logo">
                 <img src="./img/logo.png" alt="로고" />
@@ -286,8 +288,6 @@
                       <li>
                         <h3><a href="#">취업맞춤특기병 통합안내</a></h3>
                         <br />
-                        <br />
-                        <br />
                         <h3><a href="#">취업맞춤특기병 콜서비스</a></h3>
                       </li>
                     </ul>
@@ -301,7 +301,7 @@
                     <ul class="sub inner">
                       <li>
                         <h3><a href="#">국민생각함</a></h3>
-                        <br /><br /><br /><br /><br />
+                        <br>
                         <h3><a href="#">정책참여</a></h3>
                         <dl>
                           <dt><a href="#">정책토론</a></dt>
@@ -344,7 +344,7 @@
                       </li>
                       <li>
                         <h3><a href="#">칭찬합시다</a></h3>
-                        <br /><br /><br /><br /><br />
+                        <br />
                         <h3><a href="#">자유게시판</a></h3>
                       </li>
                       <li>
@@ -353,10 +353,6 @@
                           <dt><a href="#">누리집 오류신고</a></dt>
                           <dd></dd>
                         </dl>
-                        <br />
-                        <br />
-                        <br />
-                        <br />
                         <h3><a href="#">안전신문고</a></h3>
                       </li>
                     </ul>
@@ -370,7 +366,7 @@
                     <ul class="sub inner">
                       <li>
                         <h3><a href="#">공지사항</a></h3>
-                        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                        <br /><br />
                       </li>
                       <li>
                         <h3><a href="#">보도·설명자료</a></h3>
@@ -431,7 +427,6 @@
                           <dt><a href="#">병무청 정책목표</a></dt>
                           <dd></dd>
                         </dl>
-                        <br />
                         <h3><a href="#">조직 및 직원안내</a></h3>
                         <dl>
                           <dt><a href="#">공지사항 </a></dt>
@@ -465,7 +460,7 @@
                           </dt>
                           <dd></dd>
                         </dl>
-                        <br /><br />
+                        <br />
                         <h3><a href="#">지방청 안내</a></h3>
                       </li>
                       <li>
@@ -521,12 +516,11 @@
               </div>
               <!-- 햄버거 -->
               <div class="btn2"></div>
-              <div onclick="history.back();" class="page_cover"></div>
+              <div class="page_cover"></div>
               <div id="menu">
                 <ul class="nav">
                   <li>
                     <a>병역이행안내</a>
-                    <div id="toggleMenu">+</div>
                     <ul class="sub_mobile">
                       <li><a href="#">병역판정검사</a></li>
                       <li><a href="#">현역병입영</a></li>
@@ -1124,7 +1118,9 @@
             <div class="section_4_inner src4">
               <div class="section_4_lefe">
                 <div class="section_4_lefe_top">
-                  <h3>주요소식</h3>
+                  <h3>주요소식
+                    <span class="red4"></span>
+                  </h3>
                   <a href="#">
                     <div class="section_4_lefe_top_button">더보기 +</div>
                   </a>
@@ -1144,7 +1140,9 @@
               </div>
               <div class="section_4_center">
                 <div class="section_4_center_top">
-                  <h3>열린장관실</h3>
+                  <h3>열린장관실
+                    <span class="red4"></span>
+                  </h3>
                 </div>
                 <div class="section_4_boxs">
                   <div class="section_4_center_text">
@@ -1168,9 +1166,12 @@
               </div>
               <div class="section_4_right">
                 <div class="section_4_right_top">
-                  <h3>알림판</h3>
+                  <h3>알림판
+                    <span class="red4"></span>
+                  </h3>
                   <div class="section_4_right_top_button">
                     <div class="section_6_lefe_top_button_1">
+                      <span class="slide-count">Slide 1 of 4</span>
                       <img
                         src="./img/section_6_lefe_top_button_1.png"
                         alt="prev"
@@ -1211,7 +1212,9 @@
           <div class="w1750_2">
             <div class="section_6_lefe">
               <div class="section_6_lefe_top">
-                <h3>통일부 영상</h3>
+                <h3>병무청 영상
+                  <span class="red4"></span>
+                </h3>
                 <div class="section_6_lefe_top_button_2">
                   <img
                     src="./img/section_6_lefe_top_button_1.png"
@@ -1244,7 +1247,9 @@
             </div>
             <div class="section_6_lefe ml">
               <div class="section_6_lefe_top mt">
-                <h3>카드뉴스</h3>
+                <h3>카드뉴스
+                  <span class="red4"></span>
+                </h3>
                 <div class="section_6_lefe_top_button_3">
                   <img
                     src="./img/section_6_lefe_top_button_1.png"
@@ -1277,7 +1282,9 @@
             </div>
             <div class="section_6_lefe ml2">
               <div class="section_6_lefe_top">
-                <h3>뉴스레터</h3>
+                <h3>뉴스레터
+                  <span class="red4"></span>
+                </h3>
               </div>
               <div class="section_6_lefe_bottom mb">
                 <a href="#">
@@ -1289,7 +1296,9 @@
             </div>
             <div class="section_6_right">
               <div class="section_6_right_top">
-                <h3>누리소통망</h3>
+                <h3>누리소통망
+                  <span class="red4"></span>
+                </h3>
                 <div class="src6_main-app1">
                   <a
                     href="https://www.facebook.com/?locale=ko_KR"
@@ -1323,8 +1332,9 @@
                   /></a>
                 </div>
                 <div
-                  class="section_6_lefe_top_button_1 section_6_right_top_button"
+                  class="section_6_lefe_top_button_4 section_6_right_top_button"
                 >
+                <span class="s6-slide-count">Slide 1 of 12</span>
                   <img
                     src="./img/section_6_lefe_top_button_2.png"
                     alt="next"
@@ -1800,8 +1810,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- jQuery 라이브러리 -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Slick 라이브러리 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/custom.js"></script>

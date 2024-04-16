@@ -60,9 +60,9 @@ $('.box3').hide();
 $('.popup>span').on('click', function () {
 	$('.popup').hide(1500, function () {});
 });
+/* 탭 section_2  */
+/* $(() => {
 
-$(() => {
-	/* 탭 section_2  */
 	(() => {
 		const btns = $('.btns>.btn');
 		const panels = $('.panels>.panel');
@@ -77,8 +77,10 @@ $(() => {
 			$(href).addClass('on');
 		});
 	})();
-});
+}); */
 /* //// */
+
+/* 메인배너 슬라이드 */
 $(document).ready(function(){
     var isPaused = false;
 
@@ -190,7 +192,7 @@ $(document).ready(function(){
     });
 });
 
-/* 슬라이드 끝 */
+/* 메인배너 슬라이드 끝 */
 
 $(document).ready(function(){
     // 통일부 관련 누리집을 클릭했을 때 실행할 함수를 정의합니다.
@@ -227,7 +229,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	});
 });
 
-
+/* 
 let s6swiper = new Swiper('.section_6_right_bottom', {
 	slidesPerView: 6,
 	spaceBetween: 0,
@@ -256,6 +258,10 @@ stopS6.addEventListener('click', function (e) {
 		this.classList.add('pause');
 	}
 });
+ */
+
+
+/* 모바일 src3 슬라이드 */
 // 첫 번째 슬라이드 관련 변수 설정
 let currentIndex1 = 0;
 const slides1 = document.querySelectorAll('.section3_bottom_box1');
@@ -322,3 +328,5 @@ document.querySelector('.slide-left').addEventListener('click', () => {
 document.querySelector('.slide-right').addEventListener('click', () => {
     currentIndex3 = moveSlide(1, currentIndex3, totalSlides3, slides3);
 });
+
+/* //모바일src3 슬라이드 끝 */

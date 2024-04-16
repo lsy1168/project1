@@ -1,3 +1,4 @@
+/* 검색 */
 $("#sForm1").submit(function() {
 	if ($("#_top_search1").val().length < 2) {
 	  alert('검색어를 두 글자 이상 입력해주세요.');
@@ -5,36 +6,50 @@ $("#sForm1").submit(function() {
 	  return false;
 	}
   });
+/* //검색 */
 
-
-
-/* vanilla js */
+/* 팝업 */
 const pop = document.querySelector('.popup');
 const btn = document.querySelector('.popup>span');
 btn.onclick = function () {
 pop.style.display = 'none';
 };
+/* ///팝업 */
 
+
+/* 알림판 */
 //* swiper */
 const swiper = new Swiper('.swiper1', {
-// Optional parameters
-direction: 'horizontal',
-loop: true,
-// If we need pagination
-pagination: {
-el: '.swiper-pagination',
-},
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+    },
 
-// Navigation arrows
-navigation: {
-nextEl: '.section_4_right .section_6_lefe_top_button_1 .next',
-prevEl: '.section_4_right .section_6_lefe_top_button_1 .prev',
-},
-autoplay: {
-delay: 2500,
-disableOnInteraction: false,
-},
+    // Navigation arrows
+    navigation: {
+        nextEl: '.section_4_right .section_6_lefe_top_button_1 .next',
+        prevEl: '.section_4_right .section_6_lefe_top_button_1 .prev',
+    },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+	on: {
+        slideChange: function () {
+            // 현재 슬라이드 인덱스 (0부터 시작하므로 +1 해줌)
+            const currentSlideIndex = this.realIndex + 1;
+            // 전체 슬라이드 수
+            const totalSlides = this.slides.length;
+            // 카운팅을 표시하는 요소에 현재 슬라이드 번호와 전체 슬라이드 수 표시
+            const slideCountElement = document.querySelector('.slide-count');
+            slideCountElement.innerHTML = `<span style="color: black;">${currentSlideIndex}</span> / <span style="color: #777;">${totalSlides}</span>`;
+        }
+    }
 });
+/* ./////알림판 */
 
 /* https://swiperjs.com/demos#autoplay */
 //* swiper */
@@ -78,6 +93,47 @@ disableOnInteraction: false,
 },
 });
 
+let s6swiper = new Swiper('.section_6_right_bottom', {
+    slidesPerView: 6,
+    spaceBetween: 0,
+    direction: 'vertical',
+    loop: true,
+    autoplay: {
+        delay: 1600,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: '.section_6_lefe_top_button_4 img.next',
+        prevEl: '.section_6_lefe_top_button_4 img.next',
+    },
+    on: {
+        slideChange: function () {
+            // 현재 슬라이드 인덱스 (0부터 시작하므로 +1 해줌)
+            const currentSlideIndex = this.realIndex + 1;
+            // 전체 슬라이드 수
+            const totalSlides = this.slides.length;
+            // 카운팅을 표시하는 요소에 현재 슬라이드 번호와 전체 슬라이드 수 표시
+            const slideCountElement = document.querySelector('.s6-slide-count');
+            slideCountElement.innerHTML = `<span style="color: black;">${currentSlideIndex}</span> / <span style="color: #444;">${totalSlides}</span>`;
+        }
+    }
+});
+
+const stopS6 = document.querySelector('.section_6_right_top .control');
+stopS6.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    if (this.classList.contains('pause')) {
+        s6swiper.autoplay.stop();
+        this.classList.remove('pause');
+        this.classList.add('play');
+    } else if (this.classList.contains('play')) {
+        s6swiper.autoplay.start();
+        this.classList.remove('play');
+        this.classList.add('pause');
+    }
+
+});
 
 
 /* ==========
